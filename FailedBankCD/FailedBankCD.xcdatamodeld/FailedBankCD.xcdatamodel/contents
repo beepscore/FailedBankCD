@@ -9,9 +9,10 @@
         <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="details" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FailedBankDetails" syncable="YES"/>
     </entity>
     <elements>
-        <element name="FailedBankInfo" positionX="0" positionY="0" width="128" height="88"/>
         <element name="FailedBankDetails" positionX="232" positionY="2" width="128" height="88"/>
+        <element name="FailedBankInfo" positionX="0" positionY="0" width="128" height="103"/>
     </elements>
 </model>
