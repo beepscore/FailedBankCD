@@ -25,6 +25,10 @@
 		DE20307D18583D4800B8D9BE /* FailedBankCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE20307C18583D4800B8D9BE /* FailedBankCDTests.m */; };
 		DE573A40185840AA00EF1387 /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE573A3F185840AA00EF1387 /* FBCDMasterViewController.m */; };
 		DE573A41185840F100EF1387 /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE573A3F185840AA00EF1387 /* FBCDMasterViewController.m */; };
+		DED2AE0718590B5C00695E2D /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2AE0618590B5C00695E2D /* FailedBankInfo.m */; };
+		DED2AE0818590B5C00695E2D /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2AE0618590B5C00695E2D /* FailedBankInfo.m */; };
+		DED2AE0B18590B5C00695E2D /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2AE0A18590B5C00695E2D /* FailedBankDetails.m */; };
+		DED2AE0C18590B5C00695E2D /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2AE0A18590B5C00695E2D /* FailedBankDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		DE20307C18583D4800B8D9BE /* FailedBankCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankCDTests.m; sourceTree = "<group>"; };
 		DE573A3E185840AA00EF1387 /* FBCDMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCDMasterViewController.h; sourceTree = "<group>"; };
 		DE573A3F185840AA00EF1387 /* FBCDMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCDMasterViewController.m; sourceTree = "<group>"; };
+		DED2AE0518590B5C00695E2D /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		DED2AE0618590B5C00695E2D /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
+		DED2AE0918590B5C00695E2D /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		DED2AE0A18590B5C00695E2D /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
 		DEE36B4418583EC400773E67 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +136,10 @@
 				DE20305C18583D4800B8D9BE /* Main.storyboard */,
 				DE20306818583D4800B8D9BE /* Images.xcassets */,
 				DE20305F18583D4800B8D9BE /* FailedBankCD.xcdatamodeld */,
+				DED2AE0918590B5C00695E2D /* FailedBankDetails.h */,
+				DED2AE0A18590B5C00695E2D /* FailedBankDetails.m */,
+				DED2AE0518590B5C00695E2D /* FailedBankInfo.h */,
+				DED2AE0618590B5C00695E2D /* FailedBankInfo.m */,
 				DE20305118583D4800B8D9BE /* Supporting Files */,
 				DE573A3E185840AA00EF1387 /* FBCDMasterViewController.h */,
 				DE573A3F185840AA00EF1387 /* FBCDMasterViewController.m */,
@@ -263,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE20306118583D4800B8D9BE /* FailedBankCD.xcdatamodeld in Sources */,
+				DED2AE0B18590B5C00695E2D /* FailedBankDetails.m in Sources */,
 				DE20305718583D4800B8D9BE /* main.m in Sources */,
+				DED2AE0718590B5C00695E2D /* FailedBankInfo.m in Sources */,
 				DE20305B18583D4800B8D9BE /* FBCDAppDelegate.m in Sources */,
 				DE573A40185840AA00EF1387 /* FBCDMasterViewController.m in Sources */,
 			);
@@ -274,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE20307D18583D4800B8D9BE /* FailedBankCDTests.m in Sources */,
+				DED2AE0C18590B5C00695E2D /* FailedBankDetails.m in Sources */,
+				DED2AE0818590B5C00695E2D /* FailedBankInfo.m in Sources */,
 				DE573A41185840F100EF1387 /* FBCDMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
