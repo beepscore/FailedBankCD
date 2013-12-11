@@ -61,6 +61,7 @@
 		DE20307818583D4800B8D9BE /* FailedBankCDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FailedBankCDTests-Info.plist"; sourceTree = "<group>"; };
 		DE20307A18583D4800B8D9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE20307C18583D4800B8D9BE /* FailedBankCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankCDTests.m; sourceTree = "<group>"; };
+		DEE36B4418583EC400773E67 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 		DE20303C18583D4800B8D9BE = {
 			isa = PBXGroup;
 			children = (
+				DEE36B4418583EC400773E67 /* README.md */,
 				DE20305018583D4800B8D9BE /* FailedBankCD */,
 				DE20307618583D4800B8D9BE /* FailedBankCDTests */,
 				DE20304718583D4800B8D9BE /* Frameworks */,
@@ -477,6 +479,7 @@
 				DE20308218583D4800B8D9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE20308318583D4800B8D9BE /* Build configuration list for PBXNativeTarget "FailedBankCDTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +488,7 @@
 				DE20308518583D4800B8D9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
