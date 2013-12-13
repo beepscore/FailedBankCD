@@ -25,6 +25,9 @@
 		DE20307D18583D4800B8D9BE /* FailedBankCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE20307C18583D4800B8D9BE /* FailedBankCDTests.m */; };
 		DE38873618590C3E00BECF6F /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE38873518590C3E00BECF6F /* FailedBankInfo.m */; };
 		DE38873718590C3E00BECF6F /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE38873518590C3E00BECF6F /* FailedBankInfo.m */; };
+		DE51C75D185AF167002E414E /* CoreDataTutorial2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DE51C75A185AF167002E414E /* CoreDataTutorial2.sqlite */; };
+		DE51C75E185AF167002E414E /* CoreDataTutorial2.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = DE51C75B185AF167002E414E /* CoreDataTutorial2.sqlite-shm */; };
+		DE51C75F185AF167002E414E /* CoreDataTutorial2.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = DE51C75C185AF167002E414E /* CoreDataTutorial2.sqlite-wal */; };
 		DE573A40185840AA00EF1387 /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE573A3F185840AA00EF1387 /* FBCDMasterViewController.m */; };
 		DE573A41185840F100EF1387 /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE573A3F185840AA00EF1387 /* FBCDMasterViewController.m */; };
 		DED2AE0B18590B5C00695E2D /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2AE0A18590B5C00695E2D /* FailedBankDetails.m */; };
@@ -63,6 +66,9 @@
 		DE20307C18583D4800B8D9BE /* FailedBankCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankCDTests.m; sourceTree = "<group>"; };
 		DE38873418590C3E00BECF6F /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
 		DE38873518590C3E00BECF6F /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
+		DE51C75A185AF167002E414E /* CoreDataTutorial2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreDataTutorial2.sqlite; sourceTree = "<group>"; };
+		DE51C75B185AF167002E414E /* CoreDataTutorial2.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CoreDataTutorial2.sqlite-shm"; sourceTree = "<group>"; };
+		DE51C75C185AF167002E414E /* CoreDataTutorial2.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CoreDataTutorial2.sqlite-wal"; sourceTree = "<group>"; };
 		DE573A3E185840AA00EF1387 /* FBCDMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCDMasterViewController.h; sourceTree = "<group>"; };
 		DE573A3F185840AA00EF1387 /* FBCDMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCDMasterViewController.m; sourceTree = "<group>"; };
 		DED2AE0918590B5C00695E2D /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
@@ -131,6 +137,9 @@
 		DE20305018583D4800B8D9BE /* FailedBankCD */ = {
 			isa = PBXGroup;
 			children = (
+				DE51C75A185AF167002E414E /* CoreDataTutorial2.sqlite */,
+				DE51C75B185AF167002E414E /* CoreDataTutorial2.sqlite-shm */,
+				DE51C75C185AF167002E414E /* CoreDataTutorial2.sqlite-wal */,
 				DE20305918583D4800B8D9BE /* FBCDAppDelegate.h */,
 				DE20305A18583D4800B8D9BE /* FBCDAppDelegate.m */,
 				DE20305C18583D4800B8D9BE /* Main.storyboard */,
@@ -254,7 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE20306918583D4800B8D9BE /* Images.xcassets in Resources */,
+				DE51C75E185AF167002E414E /* CoreDataTutorial2.sqlite-shm in Resources */,
+				DE51C75D185AF167002E414E /* CoreDataTutorial2.sqlite in Resources */,
 				DE20305518583D4800B8D9BE /* InfoPlist.strings in Resources */,
+				DE51C75F185AF167002E414E /* CoreDataTutorial2.sqlite-wal in Resources */,
 				DE20305E18583D4800B8D9BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
