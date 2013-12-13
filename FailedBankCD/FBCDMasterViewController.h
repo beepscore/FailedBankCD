@@ -11,6 +11,6 @@
 @interface FBCDMasterViewController : UITableViewController
 
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, strong) NSArray *failedBankInfos;
+@property (nonatomic, strong) NSFetchedResultsController *fetchedResultsController;
 
 @end
